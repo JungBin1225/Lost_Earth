@@ -15,7 +15,7 @@ MonoBehaviour:
   m_PixelRect:
     serializedVersion: 2
     x: 282
-    y: 53
+    y: 51
     width: 1421
     height: 981
   m_ShowMode: 4
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 76
+  controlID: 16
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -226,7 +226,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 105
+  controlID: 17
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 106
+  controlID: 18
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -415,7 +415,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 282
-    y: 633
+    y: 631
     width: 1144
     height: 360
   m_ViewDataDictionary: {fileID: 0}
@@ -439,14 +439,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\leejungbin\Desktop\Lost Earth
+  m_LastProjectPath: "C:\\Users\\leejungbin\\Desktop\\\uB2E4\uC815\uD558\uB9AC_Project\\Lost_Earth"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c8490000
-    m_LastClickedID: 18888
-    m_ExpandedIDs: 00000000c849000000ca9a3b
+    m_SelectedIDs: 783c0000
+    m_LastClickedID: 15480
+    m_ExpandedIDs: 00000000783c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -474,7 +474,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 00000000783c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -501,7 +501,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300000000000098330000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -551,7 +551,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 1427
-    y: 83
+    y: 81
     width: 275
     height: 910
   m_ViewDataDictionary: {fileID: 0}
@@ -589,16 +589,16 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 282
-    y: 83
+    y: 81
     width: 274
     height: 529
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 1af9ffff
-      m_LastClickedID: -1766
-      m_ExpandedIDs: 3ef9ffffe2faffff
+      m_SelectedIDs: aafaffff
+      m_LastClickedID: -1366
+      m_ExpandedIDs: 54fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -643,7 +643,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 557
-    y: 83
+    y: 81
     width: 868
     height: 529
   m_ViewDataDictionary: {fileID: 0}
@@ -660,7 +660,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: -3.6738608, y: -2.5201223, z: -0.41701317}
     speed: 2
-    m_Value: {x: -3.3587, y: -2.563808, z: -0.39895573}
+    m_Value: {x: -3.6738608, y: -2.5201223, z: -0.41701317}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -713,7 +713,7 @@ MonoBehaviour:
   m_Size:
     m_Target: 4.7868958
     speed: 2
-    m_Value: 5.0124564
+    m_Value: 4.7868958
   m_Ortho:
     m_Target: 1
     speed: 2
