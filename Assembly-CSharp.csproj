@@ -53,10 +53,16 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\StageManager.cs" />
+    <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\PixelWeatherAsset\Scripts\RainController.cs" />
+    <Compile Include="Assets\PixelWeatherAsset\Scripts\StoneFloat.cs" />
+    <Compile Include="Assets\PixelWeatherAsset\Scripts\SnowController.cs" />
+    <Compile Include="Assets\PixelWeatherAsset\Scripts\UIController.cs" />
   </ItemGroup>
   <ItemGroup>
+     <None Include="Assets\PixelWeatherAsset\Materials\SnowDiffuse.shader" />
+     <None Include="Assets\PixelWeatherAsset\Materials\SnowUnlit.shader" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.1.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
