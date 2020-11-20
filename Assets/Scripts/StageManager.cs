@@ -15,7 +15,7 @@ public class StageManager : MonoBehaviour
     {
         if(GameManager.gameManager.O2 > 0)
         {
-            GameManager.gameManager.O2 -= 0.5f * Time.deltaTime;
+            GameManager.gameManager.O2 -= 1f * Time.deltaTime;
         }
     }
 }

@@ -6,11 +6,10 @@ public class WeatherController : MonoBehaviour
 {
     public GameObject player;
     public GameObject snow;
-    public GameObject wind;
+    public UB.Simple2dWeatherEffects.Standard.D2FogsPE wind;
     public PlayerController playerController;
 
     public ParticleSystem snowParticle;
-    public ParticleSystem windParticle;
 
     public bool isSnow;
 
@@ -26,20 +25,15 @@ public class WeatherController : MonoBehaviour
 
         player = GameObject.Find("Player");
         snow = GameObject.Find("Snow");
-        wind = GameObject.Find("Wind");
+        wind = Camera.main.GetComponent<UB.Simple2dWeatherEffects.Standard.D2FogsPE>();
 
         snowParticle = snow.GetComponent<ParticleSystem>();
-        windParticle = wind.GetComponent<ParticleSystem>();
 
         playerController = player.GetComponent<PlayerController>();
 
         spawn = Random.Range(spawnMin, spawnMax);
 
         time = 0;
-
-        ParticleSystem.MainModule main = windParticle.main;
-        main.startSpeed = 20;
-        main.startLifetime = 1.5f;
     }
 
     void Update()
@@ -48,22 +42,34 @@ public class WeatherController : MonoBehaviour
 
         if (time >= spawn)
         {
-            time = 0;
-
             if (isSnow)
             {
-                snowParticle.Stop();
-                windParticle.Stop();
-                isSnow = false;
+                if(wind.Density > 0)
+                {
+                    wind.Density -= 2 * Time.deltaTime;
+                }
+                else
+                {
+                    snowParticle.Stop();
+                    isSnow = false;
+                    time = 0;
+                    spawn = Random.Range(spawnMin, spawnMax);
+                }
             }
             else
             {
-                snowParticle.Play();
-                windParticle.Play();
-                isSnow = true;
+                if (wind.Density < 1)
+                {
+                    wind.Density += 2 * Time.deltaTime;
+                }
+                else
+                {
+                    snowParticle.Play();
+                    isSnow = true;
+                    time = 0;
+                    spawn = Random.Range(spawnMin, spawnMax);
+                }
             }
-
-            spawn = Random.Range(spawnMin, spawnMax);
         }
 
         if (isSnow)
