@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Hierarchy
   m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 921, y: 492}
   m_MaxSize: {x: 16006, y: 14042}
   vertical: 0
-  controlID: 134
+  controlID: 132
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -252,7 +252,7 @@ MonoBehaviour:
   m_MinSize: {x: 645, y: 492}
   m_MaxSize: {x: 12005, y: 14042}
   vertical: 1
-  controlID: 135
+  controlID: 133
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -278,7 +278,7 @@ MonoBehaviour:
   m_MinSize: {x: 645, y: 221}
   m_MaxSize: {x: 12005, y: 4021}
   vertical: 0
-  controlID: 103
+  controlID: 134
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -369,14 +369,14 @@ MonoBehaviour:
     m_KeySerializationHelper:
     - {fileID: 7034557307008905603, guid: fd913e328d35dab47b4342eb7fd6fdeb, type: 2}
     m_ValueSerializationHelper:
-    - e00: 0.27238032
+    - e00: 0.3364509
       e01: 0
       e02: 0
-      e03: 17.077736
+      e03: 9.930237
       e10: 0
-      e11: 0.27238032
+      e11: 0.3364509
       e12: 0
-      e13: 268.54736
+      e13: 253.57251
       e20: 0
       e21: 0
       e22: 1
@@ -490,23 +490,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - "Assets/Sprites/\uD50C\uB808\uC774\uC5B4\uCE90\uB9AD\uD130/\uD50C\uB808\uC774\uC5B4
-      \uC6B0\uC8FC\uBCF5"
+    - Assets/Scenes
     m_Globs: []
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - "Assets/Sprites/\uD50C\uB808\uC774\uC5B4\uCE90\uB9AD\uD130/\uD50C\uB808\uC774\uC5B4
-    \uC6B0\uC8FC\uBCF5"
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\user\OneDrive\DOCUME~1-DESKTOP-AAHU1QB-9585\GitHub\Lost_Earth
+  m_LastProjectPath: "C:\\Users\\leejungbin\\Desktop\\\uB2E4\uC815\uD558\uB9AC_Project\\Lost_Earth"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a0420000
-    m_LastClickedID: 17056
-    m_ExpandedIDs: 000000000e41000010410000124100001441000016410000184100001a4100003e4100005041000000ca9a3b
+    m_SelectedIDs: 20410000
+    m_LastClickedID: 16672
+    m_ExpandedIDs: 000000000441000006410000084100000a4100000c4100000e4100001041000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -534,7 +532,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000000e41000010410000124100001441000016410000184100001a410000
+    m_ExpandedIDs: 000000000441000006410000084100000a4100000c4100000e41000010410000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -658,7 +656,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 58fbffff803c0000
+      m_ExpandedIDs: 0ef9ffffbef9ffff5afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -718,9 +716,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.59079385, y: -0.31888723, z: -274.10944}
+    m_Target: {x: -0.31390044, y: -0.061022844, z: -9.065808}
     speed: 2
-    m_Value: {x: -0.59079385, y: -0.31888723, z: -274.10944}
+    m_Value: {x: -0.31390044, y: -0.061022844, z: -9.065808}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -771,9 +769,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 5.9629855
+    m_Target: 5.208296
     speed: 2
-    m_Value: 5.9629855
+    m_Value: 5.208296
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -856,7 +854,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
