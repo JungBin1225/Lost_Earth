@@ -6,10 +6,11 @@ public class CameraShake : MonoBehaviour
 {
     public float shakeAmount = 5;
     public float shakeTime = 5;
-    Vector3 initPosition;
+
+    GameObject player;
     void Start()
     {
-        initPosition = Camera.main.transform.position;
+        player = GameObject.Find("Player");
     }
 
     // Update is called once per frame
@@ -17,13 +18,15 @@ public class CameraShake : MonoBehaviour
     {
         if(shakeTime > 0)
         {
-            transform.position = Random.insideUnitSphere * shakeAmount + initPosition;
+            transform.position = Random.insideUnitSphere * shakeAmount + player.transform.position;
+            transform.position = new Vector3(transform.position.x, transform.position.y, -10);
             shakeTime -= Time.deltaTime;
         }
-        else
+        else if(shakeTime < 0)
         {
             shakeTime = 0;
-            transform.position = initPosition;
+            transform.position = player.transform.position;
+            transform.position = new Vector3(transform.position.x, transform.position.y, -10);
         }
     }
 }
