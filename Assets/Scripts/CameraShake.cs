@@ -10,7 +10,7 @@ public class CameraShake : MonoBehaviour
     GameObject player;
     void Start()
     {
-        player = GameObject.Find("Player");
+        player = GameObject.FindGameObjectWithTag("Player");
     }
 
     // Update is called once per frame

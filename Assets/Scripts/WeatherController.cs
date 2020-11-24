@@ -23,7 +23,7 @@ public class WeatherController : MonoBehaviour
     {
         isSnow = true;
 
-        player = GameObject.Find("Player");
+        player = GameObject.FindGameObjectWithTag("Player");
         snow = GameObject.Find("Snow");
         wind = Camera.main.GetComponent<UB.Simple2dWeatherEffects.Standard.D2FogsPE>();
 

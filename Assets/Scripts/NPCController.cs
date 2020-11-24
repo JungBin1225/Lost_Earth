@@ -13,7 +13,7 @@ public class NPCController : MonoBehaviour
 
     void Start()
     {
-        player = GameObject.Find("Player").GetComponent<PlayerController>();
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
         textController = GameObject.Find("NPCTalking").GetComponent<TextController>();
     }
 

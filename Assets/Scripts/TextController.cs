@@ -28,7 +28,7 @@ public class TextController : MonoBehaviour
 
     void Start()
     {
-        player = GameObject.Find("Player").GetComponent<PlayerController>();
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
         npc = GameObject.FindGameObjectWithTag("NPC").GetComponent<NPCController>();
         NPCTalk = GameObject.Find("Dialogue").GetComponent<Text>();
         NPCname = GameObject.Find("Name").GetComponent<Text>();
