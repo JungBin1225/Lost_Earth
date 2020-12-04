@@ -9,7 +9,7 @@ public class NPCController : MonoBehaviour
     public bool isTouch = false;
 
     public string NPCname;
-    public string NPCtalk;
+    public TextAsset textFile;
 
     void Start()
     {
@@ -23,9 +23,10 @@ public class NPCController : MonoBehaviour
         {
             if (Input.GetKeyUp(KeyCode.Space))
             {
-                player.isEvent = true;
+                player.isEvent = true; //플레이어가 정지함
+                textController.isMessage = true; //메세지를 출력함
                 textController.NPCname.text = NPCname;
-                textController.talkText = NPCtalk;
+                textController.textFile = textFile;
             }
         }
     }
@@ -42,7 +43,7 @@ public class NPCController : MonoBehaviour
     {
         if (collision.collider.tag == "Player")
         {
-            isTouch = true;
+            isTouch = false;
         }
     }
 }

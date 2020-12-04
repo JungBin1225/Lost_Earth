@@ -52,24 +52,37 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\UB\Simple2dWeatherEffects\Standard\D2FogsPE.cs" />
+     <Compile Include="Assets\Scripts\StageManager\AiMessage.cs" />
      <Compile Include="Assets\Scripts\NPCController.cs" />
      <Compile Include="Assets\Scripts\TextController.cs" />
-     <Compile Include="Assets\Scripts\StageManager.cs" />
      <Compile Include="Assets\PixelWeatherAsset\Scripts\RainController.cs" />
+     <Compile Include="Assets\Scripts\MoveScene.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\Opening&amp;Ending\ImageSlide.cs" />
+     <Compile Include="Assets\Scripts\UnLock.cs" />
      <Compile Include="Assets\PixelWeatherAsset\Scripts\StoneFloat.cs" />
      <Compile Include="Assets\Scripts\ItemManager.cs" />
+     <Compile Include="Assets\Scripts\Teleport.cs" />
      <Compile Include="Assets\UB\Simple2dWeatherEffects\Standard\EffectBase.cs" />
      <Compile Include="Assets\Scripts\CameraShake.cs" />
+     <Compile Include="Assets\Scripts\StageManager\ShelterIn.cs" />
      <Compile Include="Assets\PixelWeatherAsset\Scripts\SnowController.cs" />
+     <Compile Include="Assets\Scripts\SoupBox.cs" />
      <Compile Include="Assets\Scripts\InventoryManager.cs" />
+     <Compile Include="Assets\Scripts\LayerController.cs" />
      <Compile Include="Assets\UB\Simple2dWeatherEffects\Standard\D2FogsNoiseTexPE.cs" />
+     <Compile Include="Assets\Scripts\OxygenController.cs" />
+     <Compile Include="Assets\Scripts\StageManager\FirstStageManager.cs" />
+     <Compile Include="Assets\Scripts\LevelLoader.cs" />
      <Compile Include="Assets\PixelWeatherAsset\Scripts\UIController.cs" />
      <Compile Include="Assets\Scripts\WeatherController.cs" />
+     <Compile Include="Assets\Scripts\MeteoController.cs" />
      <None Include="Assets\UB\Simple2dWeatherEffects\Standard\D2Fogs.shader" />
      <None Include="Assets\PixelWeatherAsset\Materials\SnowDiffuse.shader" />
      <None Include="Assets\PixelWeatherAsset\Materials\SnowUnlit.shader" />
      <None Include="Assets\UB\Simple2dWeatherEffects\Standard\D2FogsNoiseTex.shader" />
+     <None Include="Assets\text\dialoge.txt" />
+     <None Include="Assets\text\ending Script.txt" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/user/OneDrive/DOCUME~1-DESKTOP-AAHU1QB-9585/GitHub/Lost_Earth/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>

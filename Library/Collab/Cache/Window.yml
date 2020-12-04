@@ -14,553 +14,127 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - .collabignore
-    - Assets/Animation.meta
-    - Assets/Animation/Player Suit.meta
-    - Assets/Animation/Player Suit/PlayerSuit.controller
-    - Assets/Animation/Player Suit/directionBack_Suit.anim
-    - Assets/Animation/Player Suit/directionBack_Suit.anim.meta
-    - Assets/Animation/Player Suit/directionFront_Suit.anim
-    - Assets/Animation/Player Suit/directionFront_Suit.anim.meta
-    - Assets/Animation/Player Suit/directionLeft_Suit.anim
-    - Assets/Animation/Player Suit/directionLeft_Suit.anim.meta
-    - Assets/Animation/Player Suit/directionRight_Suit.anim
-    - Assets/Animation/Player Suit/directionRight_Suit.anim.meta
-    - Assets/Animation/Player Suit/playerBackLeft_Suit.anim
-    - Assets/Animation/Player Suit/playerBackLeft_Suit.anim.meta
-    - Assets/Animation/Player Suit/playerBack_Suit.anim
-    - Assets/Animation/Player Suit/playerBack_Suit.anim.meta
-    - Assets/Animation/Player Suit/playerBakcRight_Suit.anim
-    - Assets/Animation/Player Suit/playerBakcRight_Suit.anim.meta
-    - Assets/Animation/Player Suit/playerFrontLeft_Suit.anim
-    - Assets/Animation/Player Suit/playerFrontLeft_Suit.anim.meta
-    - Assets/Animation/Player Suit/playerFrontRight_Suit.anim
-    - Assets/Animation/Player Suit/playerFrontRight_Suit.anim.meta
-    - Assets/Animation/Player Suit/playerFront_Suit.anim
-    - Assets/Animation/Player Suit/playerFront_Suit.anim.meta
-    - Assets/Animation/Player Suit/playerLeft_Suit.anim
-    - Assets/Animation/Player Suit/playerLeft_Suit.anim.meta
-    - Assets/Animation/Player Suit/playerRight_Suit.anim
-    - Assets/Animation/Player Suit/playerRight_Suit.anim.meta
-    - Assets/Animation/Player.meta
-    - Assets/Animation/Player/Player.anim
-    - Assets/Animation/Player/Player.controller
-    - Assets/Animation/Player/directionBack.anim
-    - Assets/Animation/Player/directionFront.anim
-    - Assets/Animation/Player/directionLeft.anim
-    - Assets/Animation/Player/directionRight.anim
-    - Assets/Animation/Player/playerBack.anim
-    - Assets/Animation/Player/playerBackLeft.anim
-    - Assets/Animation/Player/playerBackRight.anim
-    - Assets/Animation/Player/playerFront.anim
-    - Assets/Animation/Player/playerFrontLeft.anim
-    - Assets/Animation/Player/playerFrontRight.anim
-    - Assets/Animation/Player/playerLeft.anim
-    - Assets/Animation/Player/playerRight.anim
-    - Assets/PixelWeatherAsset.meta
-    - Assets/PixelWeatherAsset/Documentation.pdf.meta
-    - Assets/PixelWeatherAsset/Fonts.meta
-    - Assets/PixelWeatherAsset/Fonts/Roboto-Light.ttf.meta
-    - Assets/PixelWeatherAsset/Fonts/Roboto-Medium.ttf.meta
-    - Assets/PixelWeatherAsset/Materials.meta
-    - Assets/PixelWeatherAsset/Materials/Fog.mat
-    - Assets/PixelWeatherAsset/Materials/Fog.mat.meta
-    - Assets/PixelWeatherAsset/Materials/Glow.mat
-    - Assets/PixelWeatherAsset/Materials/Glow.mat.meta
-    - Assets/PixelWeatherAsset/Materials/Lightning.mat
-    - Assets/PixelWeatherAsset/Materials/Lightning.mat.meta
-    - Assets/PixelWeatherAsset/Materials/SnowDiffuse.shader.meta
-    - Assets/PixelWeatherAsset/Materials/SnowFog.mat
-    - Assets/PixelWeatherAsset/Materials/SnowFog.mat.meta
-    - Assets/PixelWeatherAsset/Materials/SnowLit.mat
-    - Assets/PixelWeatherAsset/Materials/SnowLit.mat.meta
-    - Assets/PixelWeatherAsset/Materials/SnowUnlit.shader.meta
-    - Assets/PixelWeatherAsset/Materials/SpritesDiffuse.mat
-    - Assets/PixelWeatherAsset/Materials/SpritesDiffuse.mat.meta
-    - Assets/PixelWeatherAsset/Prefabs.meta
-    - Assets/PixelWeatherAsset/Prefabs/Canvas.prefab
-    - Assets/PixelWeatherAsset/Prefabs/Canvas.prefab.meta
-    - Assets/PixelWeatherAsset/Prefabs/LightningBolt.prefab
-    - Assets/PixelWeatherAsset/Prefabs/LightningBolt.prefab.meta
-    - Assets/PixelWeatherAsset/Prefabs/Weather.meta
-    - Assets/PixelWeatherAsset/Prefabs/Weather/Rain.prefab
-    - Assets/PixelWeatherAsset/Prefabs/Weather/Rain.prefab.meta
-    - Assets/PixelWeatherAsset/Prefabs/Weather/Snow.prefab
-    - Assets/PixelWeatherAsset/Prefabs/Weather/Snow.prefab.meta
-    - Assets/PixelWeatherAsset/Scenes.meta
-    - Assets/PixelWeatherAsset/Scenes/Example.unity
-    - Assets/PixelWeatherAsset/Scenes/Example.unity.meta
-    - Assets/PixelWeatherAsset/Scripts.meta
-    - Assets/PixelWeatherAsset/Scripts/RainController.cs.meta
-    - Assets/PixelWeatherAsset/Scripts/SnowController.cs.meta
-    - Assets/PixelWeatherAsset/Scripts/StoneFloat.cs.meta
-    - Assets/PixelWeatherAsset/Scripts/UIController.cs.meta
-    - Assets/PixelWeatherAsset/Sprites.meta
-    - Assets/PixelWeatherAsset/Sprites/floatingStone.png.meta
-    - Assets/PixelWeatherAsset/Sprites/fog.png.meta
-    - Assets/PixelWeatherAsset/Sprites/lightning.png.meta
-    - Assets/PixelWeatherAsset/Sprites/noise.png.meta
-    - Assets/PixelWeatherAsset/Sprites/rainCloud.png.meta
-    - Assets/PixelWeatherAsset/Sprites/stoneTileLong.png.meta
-    - Assets/Prefeb.meta
-    - Assets/Prefeb/Player.prefab
-    - Assets/Prefeb/Player.prefab.meta
-    - Assets/Prefeb/Player_Suit.prefab
-    - Assets/Prefeb/Player_Suit.prefab.meta
-    - Assets/Prefeb/State_Inventory.prefab
-    - Assets/Prefeb/State_Inventory.prefab.meta
-    - Assets/Scenes.meta
-    - Assets/Scenes/FirstStage.unity
-    - Assets/Scenes/FirstStage.unity.meta
-    - Assets/Scenes/UnderGround.unity
-    - Assets/Scenes/UnderGround.unity.meta
-    - Assets/Scripts.meta
-    - Assets/Scripts/CameraShake.cs.meta
-    - Assets/Scripts/GameManager.cs.meta
-    - Assets/Scripts/InventoryManager.cs.meta
-    - Assets/Scripts/ItemManager.cs.meta
-    - Assets/Scripts/NPCController.cs.meta
-    - Assets/Scripts/PlayerController.cs.meta
-    - Assets/Scripts/StageManager.cs.meta
-    - Assets/Scripts/TextController.cs.meta
-    - Assets/Scripts/WeatherController.cs.meta
-    - Assets/Sprites.meta
-    - Assets/Sprites/Shelter.png
-    - Assets/Sprites/Shelter.png.meta
-    - Assets/Sprites/UI.meta
-    - Assets/Sprites/UI/HP_gauge.png.meta
-    - Assets/Sprites/UI/HP_graphic.png.meta
-    - Assets/Sprites/UI/O2_gauge1.png.meta
-    - Assets/Sprites/UI/O2_graphic.png.meta
-    - Assets/Sprites/UI/TEMP_gauge.png.meta
-    - Assets/Sprites/UI/TEMP_graphic.png.meta
-    - Assets/Sprites/UI/UI_background1.png.meta
-    - Assets/Sprites/UI/inventory.png.meta
-    - "Assets/Sprites/\uC544\uC774\uD15C.meta"
-    - "Assets/Sprites/\uC544\uC774\uD15C/soup.png"
-    - "Assets/Sprites/\uC544\uC774\uD15C/soup.png.meta"
-    - "Assets/Sprites/\uC624\uBE0C\uC81D\uD2B8.meta"
-    - "Assets/Sprites/\uC624\uBE0C\uC81D\uD2B8/Shelter01.png"
-    - "Assets/Sprites/\uC624\uBE0C\uC81D\uD2B8/Shelter01.png.meta"
-    - "Assets/Sprites/\uC624\uBE0C\uC81D\uD2B8/lock device1.png"
-    - "Assets/Sprites/\uC624\uBE0C\uC81D\uD2B8/lock device1.png.meta"
-    - "Assets/Sprites/\uC624\uBE0C\uC81D\uD2B8/lock device2.png"
-    - "Assets/Sprites/\uC624\uBE0C\uC81D\uD2B8/lock device2.png.meta"
-    - "Assets/Sprites/\uC624\uBE0C\uC81D\uD2B8/\uC0B0\uC18C\uBC1C\uC0DD\uC7A5\uCE58.png"
-    - "Assets/Sprites/\uC624\uBE0C\uC81D\uD2B8/\uC0B0\uC18C\uBC1C\uC0DD\uC7A5\uCE58.png.meta"
-    - "Assets/Sprites/\uC9C0\uD615.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tile Palette.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tile Palette/Ground Palette.prefab"
-    - "Assets/Sprites/\uC9C0\uD615/Tile Palette/Ground Palette.prefab.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_0.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_0.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_1.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_1.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_10.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_10.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_100.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_100.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_101.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_101.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_102.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_102.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_103.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_103.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_104.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_104.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_105.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_105.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_106.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_106.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_107.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_107.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_108.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_108.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_109.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_109.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_11.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_11.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_110.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_110.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_111.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_111.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_112.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_112.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_113.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_113.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_114.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_114.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_115.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_115.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_116.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_116.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_117.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_117.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_118.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_118.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_119.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_119.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_12.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_12.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_120.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_120.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_121.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_121.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_122.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_122.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_123.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_123.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_124.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_124.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_125.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_125.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_126.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_126.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_127.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_127.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_128.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_128.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_129.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_129.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_13.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_13.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_130.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_130.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_131.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_131.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_132.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_132.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_133.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_133.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_134.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_134.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_135.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_135.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_136.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_136.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_137.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_137.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_138.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_138.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_139.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_139.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_14.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_14.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_140.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_140.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_141.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_141.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_142.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_142.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_143.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_143.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_144.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_144.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_145.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_145.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_146.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_146.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_147.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_147.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_148.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_148.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_149.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_149.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_15.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_15.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_150.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_150.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_151.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_151.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_152.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_152.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_153.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_153.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_154.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_154.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_155.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_155.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_156.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_156.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_157.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_157.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_158.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_158.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_159.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_159.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_16.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_16.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_160.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_160.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_161.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_161.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_162.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_162.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_17.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_17.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_18.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_18.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_19.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_19.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_2.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_2.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_20.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_20.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_21.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_21.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_22.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_22.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_23.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_23.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_24.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_24.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_25.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_25.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_26.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_26.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_27.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_27.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_28.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_28.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_29.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_29.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_3.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_3.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_30.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_30.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_31.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_31.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_32.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_32.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_33.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_33.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_34.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_34.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_35.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_35.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_36.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_36.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_37.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_37.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_38.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_38.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_39.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_39.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_4.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_4.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_40.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_40.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_41.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_41.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_42.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_42.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_43.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_43.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_44.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_44.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_45.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_45.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_46.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_46.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_47.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_47.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_48.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_48.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_49.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_49.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_5.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_5.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_50.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_50.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_51.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_51.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_52.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_52.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_53.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_53.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_54.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_54.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_55.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_55.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_56.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_56.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_57.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_57.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_58.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_58.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_59.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_59.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_6.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_6.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_60.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_60.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_61.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_61.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_62.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_62.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_63.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_63.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_64.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_64.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_65.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_65.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_66.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_66.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_67.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_67.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_68.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_68.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_69.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_69.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_7.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_7.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_70.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_70.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_71.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_71.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_72.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_72.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_73.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_73.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_74.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_74.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_75.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_75.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_76.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_76.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_77.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_77.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_78.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_78.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_79.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_79.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_8.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_8.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_80.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_80.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_81.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_81.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_82.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_82.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_83.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_83.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_84.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_84.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_85.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_85.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_86.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_86.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_87.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_87.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_88.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_88.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_89.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_89.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_9.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_9.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_90.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_90.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_91.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_91.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_92.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_92.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_93.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_93.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_94.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_94.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_95.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_95.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_96.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_96.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_97.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_97.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_98.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_98.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_99.asset"
-    - "Assets/Sprites/\uC9C0\uD615/Tiles/Ground/stage_1_99.asset.meta"
-    - "Assets/Sprites/\uC9C0\uD615/desert rocks.png.meta"
-    - "Assets/Sprites/\uC9C0\uD615/stage_1.png.meta"
-    - "Assets/Sprites/\uC9C0\uD615/\uC0AC\uC6A9\uBD88\uAC00\uC0B0\uC18C\uBC1C\uC0DD\uC7A5\uCE58.png"
-    - "Assets/Sprites/\uC9C0\uD615/\uC0AC\uC6A9\uBD88\uAC00\uC0B0\uC18C\uBC1C\uC0DD\uC7A5\uCE58.png.meta"
-    - "Assets/Sprites/\uD50C\uB808\uC774\uC5B4\uCE90\uB9AD\uD130.meta"
-    - "Assets/Sprites/\uD50C\uB808\uC774\uC5B4\uCE90\uB9AD\uD130/\uD50C\uB808\uC774\uC5B4
-      \uC6B0\uC8FC\uBCF5.meta"
+    - Assets/Animation/Boss front.controller
+    - Assets/Animation/Boss front.controller.meta
+    - Assets/Animation/BossBack.anim
+    - Assets/Animation/BossBack.anim.meta
+    - Assets/Animation/BossFront.anim
+    - Assets/Animation/BossFront.anim.meta
+    - Assets/Animation/Idle_BossFront.anim
+    - Assets/Animation/Idle_BossFront.anim.meta
+    - Assets/Animation/Player/Player_Sigh.anim
+    - Assets/Animation/Player/Player_Sigh.anim.meta
+    - Assets/Animation/Player/Player_Working.anim
+    - Assets/Animation/Player/Player_Working.anim.meta
+    - "Assets/Animation/Player/\uD50C\uB808\uC774\uC5B4\uC815\uBA74_\uD55C\uC2281.controller"
+    - "Assets/Animation/Player/\uD50C\uB808\uC774\uC5B4\uC815\uBA74_\uD55C\uC2281.controller.meta"
+    - "Assets/Animation/Player/\uD50C\uB808\uC774\uC5B4\uC88C\uCE21_\uAE30\uACC4\uB9CC\uC9C0\uC7911.controller"
+    - "Assets/Animation/Player/\uD50C\uB808\uC774\uC5B4\uC88C\uCE21_\uAE30\uACC4\uB9CC\uC9C0\uC7911.controller.meta"
+    - "Assets/Animation/\uC0C1\uC0AC\uB4B7\uBA74\uC6D0\uBCF8_\uAC77\uAE301.controller"
+    - "Assets/Animation/\uC0C1\uC0AC\uB4B7\uBA74\uC6D0\uBCF8_\uAC77\uAE301.controller.meta"
+    - "Assets/Animation/\uC0C1\uC0AC\uC815\uBA74\uC6D0\uBCF8_\uAC77\uAE301.controller"
+    - "Assets/Animation/\uC0C1\uC0AC\uC815\uBA74\uC6D0\uBCF8_\uAC77\uAE301.controller.meta"
+    - "Assets/Animation/\uC8FC\uC778\uACF5 \uBC29/PlayerRoomDoor.anim.meta"
+    - Assets/PlayerRoom CutScene.playable
+    - Assets/PlayerRoom CutScene.playable.meta
+    - Assets/Prefeb/door animation.prefab
+    - Assets/Prefeb/door animation.prefab.meta
+    - "Assets/Prefeb/\uC0AC\uC6A9\uBD88\uAC00\uC0B0\uC18C\uBC1C\uC0DD\uC7A5\uCE58_1.prefab"
+    - "Assets/Prefeb/\uC0AC\uC6A9\uBD88\uAC00\uC0B0\uC18C\uBC1C\uC0DD\uC7A5\uCE58_1.prefab.meta"
+    - Assets/Scenes/Opening.unity
+    - Assets/Scenes/PlayerRoom CutScene.unity
+    - Assets/Scenes/PlayerRoom CutScene.unity.meta
+    - "Assets/Scripts/\uD14C\uC2A4\uD2B8\uC6A9 \uD3F4\uB354/\uB3C4\uB77C\uC774.PNG"
+    - Assets/Sound/Free Game Music Collection.meta
+    - Assets/Sound/Free Game Music Collection/Apocalyptic Music.meta
+    - Assets/Sound/Free Game Music Collection/Sci-Fi Music.meta
+    - "Assets/Sprites/\uC18C\uC7A5.meta"
+    - "Assets/Sprites/\uC18C\uC7A5/\uAC77\uAE30.meta"
+    - "Assets/Sprites/\uC18C\uC7A5/\uAC77\uAE30/\uC0C1\uC0AC\uB4B7\uBA74\uC6D0\uBCF8_\uAC77\uAE301.png"
+    - "Assets/Sprites/\uC18C\uC7A5/\uAC77\uAE30/\uC0C1\uC0AC\uB4B7\uBA74\uC6D0\uBCF8_\uAC77\uAE301.png.meta"
+    - "Assets/Sprites/\uC18C\uC7A5/\uAC77\uAE30/\uC0C1\uC0AC\uB4B7\uBA74\uC6D0\uBCF8_\uAC77\uAE302.png"
+    - "Assets/Sprites/\uC18C\uC7A5/\uAC77\uAE30/\uC0C1\uC0AC\uB4B7\uBA74\uC6D0\uBCF8_\uAC77\uAE302.png.meta"
+    - "Assets/Sprites/\uC18C\uC7A5/\uAC77\uAE30/\uC0C1\uC0AC\uB4B7\uBA74\uC6D0\uBCF8_\uAC77\uAE303.png"
+    - "Assets/Sprites/\uC18C\uC7A5/\uAC77\uAE30/\uC0C1\uC0AC\uB4B7\uBA74\uC6D0\uBCF8_\uAC77\uAE303.png.meta"
+    - "Assets/Sprites/\uC18C\uC7A5/\uAC77\uAE30/\uC0C1\uC0AC\uB4B7\uBA74\uC6D0\uBCF8_\uAC77\uAE304.png"
+    - "Assets/Sprites/\uC18C\uC7A5/\uAC77\uAE30/\uC0C1\uC0AC\uB4B7\uBA74\uC6D0\uBCF8_\uAC77\uAE304.png.meta"
+    - "Assets/Sprites/\uC18C\uC7A5/\uAC77\uAE30/\uC0C1\uC0AC\uC815\uBA74\uC6D0\uBCF8_\uAC77\uAE301.png"
+    - "Assets/Sprites/\uC18C\uC7A5/\uAC77\uAE30/\uC0C1\uC0AC\uC815\uBA74\uC6D0\uBCF8_\uAC77\uAE301.png.meta"
+    - "Assets/Sprites/\uC18C\uC7A5/\uAC77\uAE30/\uC0C1\uC0AC\uC815\uBA74\uC6D0\uBCF8_\uAC77\uAE302.png"
+    - "Assets/Sprites/\uC18C\uC7A5/\uAC77\uAE30/\uC0C1\uC0AC\uC815\uBA74\uC6D0\uBCF8_\uAC77\uAE302.png.meta"
+    - "Assets/Sprites/\uC18C\uC7A5/\uAC77\uAE30/\uC0C1\uC0AC\uC815\uBA74\uC6D0\uBCF8_\uAC77\uAE303.png"
+    - "Assets/Sprites/\uC18C\uC7A5/\uAC77\uAE30/\uC0C1\uC0AC\uC815\uBA74\uC6D0\uBCF8_\uAC77\uAE303.png.meta"
+    - "Assets/Sprites/\uC18C\uC7A5/\uAC77\uAE30/\uC0C1\uC0AC\uC815\uBA74\uC6D0\uBCF8_\uAC77\uAE304.png"
+    - "Assets/Sprites/\uC18C\uC7A5/\uAC77\uAE30/\uC0C1\uC0AC\uC815\uBA74\uC6D0\uBCF8_\uAC77\uAE304.png.meta"
+    - "Assets/Sprites/\uC18C\uC7A5/\uC0C1\uC0AC\uC815\uBA74\uC6D0\uBCF8_\uB208\uAE5C\uBE61\uC7841.png"
+    - "Assets/Sprites/\uC18C\uC7A5/\uC0C1\uC0AC\uC815\uBA74\uC6D0\uBCF8_\uB208\uAE5C\uBE61\uC7841.png.meta"
+    - "Assets/Sprites/\uC18C\uC7A5/\uC0C1\uC0AC\uC815\uBA74\uC6D0\uBCF8_\uB208\uAE5C\uBE61\uC7842.png"
+    - "Assets/Sprites/\uC18C\uC7A5/\uC0C1\uC0AC\uC815\uBA74\uC6D0\uBCF8_\uB208\uAE5C\uBE61\uC7842.png.meta"
+    - "Assets/Sprites/\uC18C\uC7A5/\uD55C\uC228.meta"
+    - "Assets/Sprites/\uC18C\uC7A5/\uD55C\uC228/\uC0C1\uC0AC\uC815\uBA74\uC6D0\uBCF8_\uD55C\uC2281.png"
+    - "Assets/Sprites/\uC18C\uC7A5/\uD55C\uC228/\uC0C1\uC0AC\uC815\uBA74\uC6D0\uBCF8_\uD55C\uC2281.png.meta"
+    - "Assets/Sprites/\uC18C\uC7A5/\uD55C\uC228/\uC0C1\uC0AC\uC815\uBA74\uC6D0\uBCF8_\uD55C\uC22810.png"
+    - "Assets/Sprites/\uC18C\uC7A5/\uD55C\uC228/\uC0C1\uC0AC\uC815\uBA74\uC6D0\uBCF8_\uD55C\uC22810.png.meta"
+    - "Assets/Sprites/\uC18C\uC7A5/\uD55C\uC228/\uC0C1\uC0AC\uC815\uBA74\uC6D0\uBCF8_\uD55C\uC2282.png"
+    - "Assets/Sprites/\uC18C\uC7A5/\uD55C\uC228/\uC0C1\uC0AC\uC815\uBA74\uC6D0\uBCF8_\uD55C\uC2282.png.meta"
+    - "Assets/Sprites/\uC18C\uC7A5/\uD55C\uC228/\uC0C1\uC0AC\uC815\uBA74\uC6D0\uBCF8_\uD55C\uC2283.png"
+    - "Assets/Sprites/\uC18C\uC7A5/\uD55C\uC228/\uC0C1\uC0AC\uC815\uBA74\uC6D0\uBCF8_\uD55C\uC2283.png.meta"
+    - "Assets/Sprites/\uC18C\uC7A5/\uD55C\uC228/\uC0C1\uC0AC\uC815\uBA74\uC6D0\uBCF8_\uD55C\uC2284.png"
+    - "Assets/Sprites/\uC18C\uC7A5/\uD55C\uC228/\uC0C1\uC0AC\uC815\uBA74\uC6D0\uBCF8_\uD55C\uC2284.png.meta"
+    - "Assets/Sprites/\uC18C\uC7A5/\uD55C\uC228/\uC0C1\uC0AC\uC815\uBA74\uC6D0\uBCF8_\uD55C\uC2285.png"
+    - "Assets/Sprites/\uC18C\uC7A5/\uD55C\uC228/\uC0C1\uC0AC\uC815\uBA74\uC6D0\uBCF8_\uD55C\uC2285.png.meta"
+    - "Assets/Sprites/\uC18C\uC7A5/\uD55C\uC228/\uC0C1\uC0AC\uC815\uBA74\uC6D0\uBCF8_\uD55C\uC2286.png"
+    - "Assets/Sprites/\uC18C\uC7A5/\uD55C\uC228/\uC0C1\uC0AC\uC815\uBA74\uC6D0\uBCF8_\uD55C\uC2286.png.meta"
+    - "Assets/Sprites/\uC18C\uC7A5/\uD55C\uC228/\uC0C1\uC0AC\uC815\uBA74\uC6D0\uBCF8_\uD55C\uC2287.png"
+    - "Assets/Sprites/\uC18C\uC7A5/\uD55C\uC228/\uC0C1\uC0AC\uC815\uBA74\uC6D0\uBCF8_\uD55C\uC2287.png.meta"
+    - "Assets/Sprites/\uC18C\uC7A5/\uD55C\uC228/\uC0C1\uC0AC\uC815\uBA74\uC6D0\uBCF8_\uD55C\uC2288.png"
+    - "Assets/Sprites/\uC18C\uC7A5/\uD55C\uC228/\uC0C1\uC0AC\uC815\uBA74\uC6D0\uBCF8_\uD55C\uC2288.png.meta"
+    - "Assets/Sprites/\uC18C\uC7A5/\uD55C\uC228/\uC0C1\uC0AC\uC815\uBA74\uC6D0\uBCF8_\uD55C\uC2289.png"
+    - "Assets/Sprites/\uC18C\uC7A5/\uD55C\uC228/\uC0C1\uC0AC\uC815\uBA74\uC6D0\uBCF8_\uD55C\uC2289.png.meta"
+    - "Assets/Sprites/\uC21C\uAC04\uC774\uB3D9\uC7A5\uCE58/Teleport1.png"
+    - "Assets/Sprites/\uC778\uD2B8\uB85C \uC0BD\uD654/intro_1.png.meta"
+    - "Assets/Sprites/\uD50C\uB808\uC774\uC5B4\uCE90\uB9AD\uD130/\uB3D9\uC791.meta"
+    - "Assets/Sprites/\uD50C\uB808\uC774\uC5B4\uCE90\uB9AD\uD130/\uB3D9\uC791/\uD50C\uB808\uC774\uC5B4\uC88C\uCE21_\uAE30\uACC4\uB9CC\uC9C0\uC7911.png"
+    - "Assets/Sprites/\uD50C\uB808\uC774\uC5B4\uCE90\uB9AD\uD130/\uB3D9\uC791/\uD50C\uB808\uC774\uC5B4\uC88C\uCE21_\uAE30\uACC4\uB9CC\uC9C0\uC7911.png.meta"
+    - "Assets/Sprites/\uD50C\uB808\uC774\uC5B4\uCE90\uB9AD\uD130/\uB3D9\uC791/\uD50C\uB808\uC774\uC5B4\uC88C\uCE21_\uAE30\uACC4\uB9CC\uC9C0\uC7912.png"
+    - "Assets/Sprites/\uD50C\uB808\uC774\uC5B4\uCE90\uB9AD\uD130/\uB3D9\uC791/\uD50C\uB808\uC774\uC5B4\uC88C\uCE21_\uAE30\uACC4\uB9CC\uC9C0\uC7912.png.meta"
+    - "Assets/Sprites/\uD50C\uB808\uC774\uC5B4\uCE90\uB9AD\uD130/\uB3D9\uC791/\uD55C\uC228.meta"
+    - "Assets/Sprites/\uD50C\uB808\uC774\uC5B4\uCE90\uB9AD\uD130/\uB3D9\uC791/\uD55C\uC228/\uD50C\uB808\uC774\uC5B4\uC815\uBA74_\uD55C\uC2281.png"
+    - "Assets/Sprites/\uD50C\uB808\uC774\uC5B4\uCE90\uB9AD\uD130/\uB3D9\uC791/\uD55C\uC228/\uD50C\uB808\uC774\uC5B4\uC815\uBA74_\uD55C\uC2281.png.meta"
+    - "Assets/Sprites/\uD50C\uB808\uC774\uC5B4\uCE90\uB9AD\uD130/\uB3D9\uC791/\uD55C\uC228/\uD50C\uB808\uC774\uC5B4\uC815\uBA74_\uD55C\uC22810.png"
+    - "Assets/Sprites/\uD50C\uB808\uC774\uC5B4\uCE90\uB9AD\uD130/\uB3D9\uC791/\uD55C\uC228/\uD50C\uB808\uC774\uC5B4\uC815\uBA74_\uD55C\uC22810.png.meta"
+    - "Assets/Sprites/\uD50C\uB808\uC774\uC5B4\uCE90\uB9AD\uD130/\uB3D9\uC791/\uD55C\uC228/\uD50C\uB808\uC774\uC5B4\uC815\uBA74_\uD55C\uC2282.png"
+    - "Assets/Sprites/\uD50C\uB808\uC774\uC5B4\uCE90\uB9AD\uD130/\uB3D9\uC791/\uD55C\uC228/\uD50C\uB808\uC774\uC5B4\uC815\uBA74_\uD55C\uC2282.png.meta"
+    - "Assets/Sprites/\uD50C\uB808\uC774\uC5B4\uCE90\uB9AD\uD130/\uB3D9\uC791/\uD55C\uC228/\uD50C\uB808\uC774\uC5B4\uC815\uBA74_\uD55C\uC2283.png"
+    - "Assets/Sprites/\uD50C\uB808\uC774\uC5B4\uCE90\uB9AD\uD130/\uB3D9\uC791/\uD55C\uC228/\uD50C\uB808\uC774\uC5B4\uC815\uBA74_\uD55C\uC2283.png.meta"
+    - "Assets/Sprites/\uD50C\uB808\uC774\uC5B4\uCE90\uB9AD\uD130/\uB3D9\uC791/\uD55C\uC228/\uD50C\uB808\uC774\uC5B4\uC815\uBA74_\uD55C\uC2284.png"
+    - "Assets/Sprites/\uD50C\uB808\uC774\uC5B4\uCE90\uB9AD\uD130/\uB3D9\uC791/\uD55C\uC228/\uD50C\uB808\uC774\uC5B4\uC815\uBA74_\uD55C\uC2284.png.meta"
+    - "Assets/Sprites/\uD50C\uB808\uC774\uC5B4\uCE90\uB9AD\uD130/\uB3D9\uC791/\uD55C\uC228/\uD50C\uB808\uC774\uC5B4\uC815\uBA74_\uD55C\uC2285.png"
+    - "Assets/Sprites/\uD50C\uB808\uC774\uC5B4\uCE90\uB9AD\uD130/\uB3D9\uC791/\uD55C\uC228/\uD50C\uB808\uC774\uC5B4\uC815\uBA74_\uD55C\uC2285.png.meta"
+    - "Assets/Sprites/\uD50C\uB808\uC774\uC5B4\uCE90\uB9AD\uD130/\uB3D9\uC791/\uD55C\uC228/\uD50C\uB808\uC774\uC5B4\uC815\uBA74_\uD55C\uC2286.png"
+    - "Assets/Sprites/\uD50C\uB808\uC774\uC5B4\uCE90\uB9AD\uD130/\uB3D9\uC791/\uD55C\uC228/\uD50C\uB808\uC774\uC5B4\uC815\uBA74_\uD55C\uC2286.png.meta"
+    - "Assets/Sprites/\uD50C\uB808\uC774\uC5B4\uCE90\uB9AD\uD130/\uB3D9\uC791/\uD55C\uC228/\uD50C\uB808\uC774\uC5B4\uC815\uBA74_\uD55C\uC2287.png"
+    - "Assets/Sprites/\uD50C\uB808\uC774\uC5B4\uCE90\uB9AD\uD130/\uB3D9\uC791/\uD55C\uC228/\uD50C\uB808\uC774\uC5B4\uC815\uBA74_\uD55C\uC2287.png.meta"
+    - "Assets/Sprites/\uD50C\uB808\uC774\uC5B4\uCE90\uB9AD\uD130/\uB3D9\uC791/\uD55C\uC228/\uD50C\uB808\uC774\uC5B4\uC815\uBA74_\uD55C\uC2288.png"
+    - "Assets/Sprites/\uD50C\uB808\uC774\uC5B4\uCE90\uB9AD\uD130/\uB3D9\uC791/\uD55C\uC228/\uD50C\uB808\uC774\uC5B4\uC815\uBA74_\uD55C\uC2288.png.meta"
+    - "Assets/Sprites/\uD50C\uB808\uC774\uC5B4\uCE90\uB9AD\uD130/\uB3D9\uC791/\uD55C\uC228/\uD50C\uB808\uC774\uC5B4\uC815\uBA74_\uD55C\uC2289.png"
+    - "Assets/Sprites/\uD50C\uB808\uC774\uC5B4\uCE90\uB9AD\uD130/\uB3D9\uC791/\uD55C\uC228/\uD50C\uB808\uC774\uC5B4\uC815\uBA74_\uD55C\uC2289.png.meta"
     - "Assets/Sprites/\uD50C\uB808\uC774\uC5B4\uCE90\uB9AD\uD130/\uD50C\uB808\uC774\uC5B4
       \uC6B0\uC8FC\uBCF5/\uC6B0\uC8FC\uC778\uB4B7\uBA74\uC6D0\uBCF8.png.meta"
     - "Assets/Sprites/\uD50C\uB808\uC774\uC5B4\uCE90\uB9AD\uD130/\uD50C\uB808\uC774\uC5B4
-      \uC6B0\uC8FC\uBCF5/\uC6B0\uC8FC\uC778\uC6B0\uCE21\uC6D0\uBCF8.png.meta"
-    - "Assets/Sprites/\uD50C\uB808\uC774\uC5B4\uCE90\uB9AD\uD130/\uD50C\uB808\uC774\uC5B4
       \uC6B0\uC8FC\uBCF5/\uC6B0\uC8FC\uC778\uC815\uBA74\uC6B0\uCE21\uC6D0\uBCF8.png.meta"
     - "Assets/Sprites/\uD50C\uB808\uC774\uC5B4\uCE90\uB9AD\uD130/\uD50C\uB808\uC774\uC5B4
-      \uC6B0\uC8FC\uBCF5/\uC6B0\uC8FC\uC778\uC815\uBA74\uC6D0\uBCF8.png.meta"
+      \uC6B0\uC8FC\uBCF5/\uC6B0\uC8FC\uC778\uC815\uBA74\uC6D0\uBCF8.png"
     - "Assets/Sprites/\uD50C\uB808\uC774\uC5B4\uCE90\uB9AD\uD130/\uD50C\uB808\uC774\uC5B4
-      \uC6B0\uC8FC\uBCF5/\uC6B0\uC8FC\uC778\uC815\uBA74\uC88C\uCE21\uC6D0\uBCF8.png.meta"
-    - "Assets/Sprites/\uD50C\uB808\uC774\uC5B4\uCE90\uB9AD\uD130/\uD50C\uB808\uC774\uC5B4
-      \uC6B0\uC8FC\uBCF5/\uC6B0\uC8FC\uC778\uC88C\uCE21\uC6D0\uBCF8.png.meta"
-    - "Assets/Sprites/\uD50C\uB808\uC774\uC5B4\uCE90\uB9AD\uD130/\uD50C\uB808\uC774\uC5B4
-      \uC6B0\uC8FC\uBCF5/\uC6B0\uC8FC\uC778\uD6C4\uBA74\uC6B0\uCE21\uC6D0\uBCF8.png.meta"
-    - "Assets/Sprites/\uD50C\uB808\uC774\uC5B4\uCE90\uB9AD\uD130/\uD50C\uB808\uC774\uC5B4
-      \uC6B0\uC8FC\uBCF5/\uC6B0\uC8FC\uC778\uD6C4\uBA74\uC88C\uCE21\uC6D0\uBCF8.png.meta"
-    - "Assets/Sprites/\uD50C\uB808\uC774\uC5B4\uCE90\uB9AD\uD130/\uD50C\uB808\uC774\uC5B4.meta"
-    - Assets/UB.meta
-    - Assets/UB/Install LWRP Fog.unitypackage.meta
-    - Assets/UB/Samples.meta
-    - Assets/UB/Samples/Simple2dWeatherEffects.meta
-    - Assets/UB/Samples/Simple2dWeatherEffects/Standard.meta
-    - Assets/UB/Samples/Simple2dWeatherEffects/Standard/Scenes.meta
-    - Assets/UB/Samples/Simple2dWeatherEffects/Standard/Scenes/D2Fog.unity
-    - Assets/UB/Samples/Simple2dWeatherEffects/Standard/Scenes/D2Fog.unity.meta
-    - Assets/UB/Samples/Simple2dWeatherEffects/Standard/Scenes/D2FogNoiseTexture.unity
-    - Assets/UB/Samples/Simple2dWeatherEffects/Standard/Scenes/D2FogNoiseTexture.unity.meta
-    - Assets/UB/Samples/Simple2dWeatherEffects/Standard/Scenes/D2FogNoiseTextureSettings.lighting
-    - Assets/UB/Samples/Simple2dWeatherEffects/Standard/Scenes/D2FogNoiseTextureSettings.lighting.meta
-    - Assets/UB/Samples/Simple2dWeatherEffects/Standard/Scenes/D2FogSettings.lighting
-    - Assets/UB/Samples/Simple2dWeatherEffects/Standard/Scenes/D2FogSettings.lighting.meta
-    - Assets/UB/Samples/Simple2dWeatherEffects/Standard/Scenes/D2FogVertical.unity
-    - Assets/UB/Samples/Simple2dWeatherEffects/Standard/Scenes/D2FogVertical.unity.meta
-    - Assets/UB/Samples/Simple2dWeatherEffects/Standard/Scenes/D2FogVerticalSettings.lighting
-    - Assets/UB/Samples/Simple2dWeatherEffects/Standard/Scenes/D2FogVerticalSettings.lighting.meta
-    - Assets/UB/Samples/Simple2dWeatherEffects/Standard/Textures.meta
-    - Assets/UB/Samples/Simple2dWeatherEffects/Standard/Textures/noiseColor.png.meta
-    - Assets/UB/Samples/Simple2dWeatherEffects/Standard/Textures/noiseSmall.png.meta
-    - Assets/UB/Simple2dWeatherEffects.meta
-    - Assets/UB/Simple2dWeatherEffects/Standard.meta
-    - Assets/UB/Simple2dWeatherEffects/Standard/D2Fogs.shader
-    - Assets/UB/Simple2dWeatherEffects/Standard/D2Fogs.shader.meta
-    - Assets/UB/Simple2dWeatherEffects/Standard/D2FogsNoiseTex.shader
-    - Assets/UB/Simple2dWeatherEffects/Standard/D2FogsNoiseTex.shader.meta
-    - Assets/UB/Simple2dWeatherEffects/Standard/D2FogsNoiseTexPE.cs
-    - Assets/UB/Simple2dWeatherEffects/Standard/D2FogsNoiseTexPE.cs.meta
-    - Assets/UB/Simple2dWeatherEffects/Standard/D2FogsPE.cs
-    - Assets/UB/Simple2dWeatherEffects/Standard/D2FogsPE.cs.meta
-    - Assets/UB/Simple2dWeatherEffects/Standard/EffectBase.cs
-    - Assets/UB/Simple2dWeatherEffects/Standard/EffectBase.cs.meta
-    - Packages/manifest.json
-    - Packages/packages-lock.json
-    - ProjectSettings/AudioManager.asset
-    - ProjectSettings/ClusterInputManager.asset
-    - ProjectSettings/DynamicsManager.asset
+      \uC6B0\uC8FC\uBCF5/\uC6B0\uC8FC\uC778\uC815\uBA74\uC88C\uCE21\uC6D0\uBCF8.png"
+    - "Assets/Sprites/\uD50C\uB808\uC774\uC5B4\uCE90\uB9AD\uD130/\uD50C\uB808\uC774\uC5B4/\uD50C\uB808\uC774\uC5B4\uB4B7\uBA742.png.meta"
+    - "Assets/Sprites/\uD50C\uB808\uC774\uC5B4\uCE90\uB9AD\uD130/\uD50C\uB808\uC774\uC5B4/\uD50C\uB808\uC774\uC5B4\uD6C4\uBA74\uC6B0\uCE212.png.meta"
+    - Assets/text/ending Script.txt
     - ProjectSettings/EditorBuildSettings.asset
-    - ProjectSettings/EditorSettings.asset
-    - ProjectSettings/GraphicsSettings.asset
-    - ProjectSettings/InputManager.asset
-    - ProjectSettings/NavMeshAreas.asset
-    - ProjectSettings/Physics2DSettings.asset
-    - ProjectSettings/PresetManager.asset
-    - ProjectSettings/ProjectSettings.asset
-    - ProjectSettings/ProjectVersion.txt
-    - ProjectSettings/QualitySettings.asset
-    - ProjectSettings/TagManager.asset
-    - ProjectSettings/TimeManager.asset
-    - ProjectSettings/UnityConnectSettings.asset
-    - ProjectSettings/VFXManager.asset
-    - ProjectSettings/VersionControlSettings.asset
     - 
-    m_Values: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-  RevisionSummary: 
+    m_Values: 010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+  RevisionSummary: "player room\uC5D0 \uD0C0\uC784\uB77C\uC778 \uCD94\uAC00"
   ChangesSearchValue: 
-  SelectedHistoryRevision: 
+  SelectedHistoryRevision: 57a5948ad747a664ad6eda455c94292e6e9c66ea
   HistoryPageNumber: 0
   TabIndex: 0

@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/FirstStage.unity
+- path: Assets/Scenes/PlayerRoom CutScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

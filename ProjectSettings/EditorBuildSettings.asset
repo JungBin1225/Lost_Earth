@@ -6,6 +6,24 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/Start.unity
+    guid: 8037e49e4973767479851c862dfb7edc
+  - enabled: 1
+    path: Assets/Scenes/Opening.unity
+    guid: ee0e854eb312eed45aec89d1f5020ced
+  - enabled: 1
+    path: Assets/Scenes/PlayerRoom CutScene.unity
+    guid: a827d45f0aa81ac4f88bdf8ffb8ba0db
+  - enabled: 1
+    path: Assets/Scenes/FirstStage.unity
+    guid: 81ffc428b10fcf449a8928fc8bbeedf5
+  - enabled: 1
+    path: Assets/Scenes/ShelterIn.unity
+    guid: 5727ae112e803b74390bc62e88fe8d96
+  - enabled: 1
+    path: Assets/Scenes/UnderGround.unity
+    guid: ce6f6c0a824485f42803b6cb0e71134b
+  - enabled: 1
+    path: Assets/Scenes/Ground.unity
+    guid: 83f5101cc25a9db4d9840e1d30dfaf75
   m_configObjects: {}

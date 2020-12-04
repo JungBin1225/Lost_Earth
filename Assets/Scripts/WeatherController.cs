@@ -8,15 +8,16 @@ public class WeatherController : MonoBehaviour
     public GameObject snow;
     public UB.Simple2dWeatherEffects.Standard.D2FogsPE wind;
     public PlayerController playerController;
+    public AudioSource windSound;
 
     public ParticleSystem snowParticle;
 
     public bool isSnow;
 
-    public float spawnMax = 20f;
-    public float spawnMin = 10f;
+    public float spawnMax = 30f; //랜덤 주기 최댓값
+    public float spawnMin = 20f; //랜덤 주기 최솟값
 
-    private float spawn;
+    private float spawn; //모래바람 주기
     private float time;
 
     void Start()
@@ -26,12 +27,14 @@ public class WeatherController : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player");
         snow = GameObject.Find("Snow");
         wind = Camera.main.GetComponent<UB.Simple2dWeatherEffects.Standard.D2FogsPE>();
+        windSound = GetComponent<AudioSource>();
 
         snowParticle = snow.GetComponent<ParticleSystem>();
 
         playerController = player.GetComponent<PlayerController>();
 
         spawn = Random.Range(spawnMin, spawnMax);
+        // 랜덤으로 주기 결정하기 싫으면 spawn = 숫자; 하면 됨
 
         time = 0;
     }
@@ -39,6 +42,15 @@ public class WeatherController : MonoBehaviour
     void Update()
     {
         time += Time.deltaTime;
+
+        if(isSnow)
+        {
+            playerController.speed = 0.07f;// 캐릭터 이동속도 변경(기본 = 0.1f)
+        }
+        else
+        {
+            playerController.speed = 0.1f;
+        }
 
         if (time >= spawn)
         {
@@ -51,9 +63,11 @@ public class WeatherController : MonoBehaviour
                 else
                 {
                     snowParticle.Stop();
+                    windSound.Stop();
                     isSnow = false;
                     time = 0;
-                    spawn = Random.Range(spawnMin, spawnMax);
+                    spawn = Random.Range(spawnMin, spawnMax); //랜덤으로 주기 부여
+                    // 랜덤으로 주기 결정하기 싫으면 spawn = 숫자; 하면 됨
                 }
             }
             else
@@ -65,20 +79,15 @@ public class WeatherController : MonoBehaviour
                 else
                 {
                     snowParticle.Play();
+                    windSound.Play();
                     isSnow = true;
                     time = 0;
-                    spawn = Random.Range(spawnMin, spawnMax);
+                    spawn = Random.Range(spawnMin, spawnMax);//랜덤으로 주기 부여
+                    // 랜덤으로 주기 결정하기 싫으면 spawn = 숫자; 하면 됨
                 }
             }
         }
 
-        if (isSnow)
-        {
-            GameManager.gameManager.temp -= 0.7f * Time.deltaTime;
-        }
-        else
-        {
-            GameManager.gameManager.temp += 0.3f * Time.deltaTime;
-        }
+        GameManager.gameManager.temp += 0.1f * Time.deltaTime;
     }
 }

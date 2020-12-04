@@ -1,0 +1,1066 @@
+fileFormatVersion: 2
+guid: 6c28babd29c57f5428b6a523208a830a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2259654822875765693
+    second: desert rocks_0
+  - first:
+      213: -1909625860113523435
+    second: desert rocks_1
+  - first:
+      213: -4660209159461206276
+    second: desert rocks_2
+  - first:
+      213: -5231769869776708094
+    second: desert rocks_3
+  - first:
+      213: -7989633532464095050
+    second: desert rocks_4
+  - first:
+      213: -4891743668164795780
+    second: desert rocks_5
+  - first:
+      213: -1467935074231206569
+    second: desert rocks_6
+  - first:
+      213: 6451797061753101414
+    second: desert rocks_7
+  - first:
+      213: 2752494728214819977
+    second: desert rocks_8
+  - first:
+      213: 1136725858425013151
+    second: desert rocks_9
+  - first:
+      213: -4614407213353674870
+    second: desert rocks_10
+  - first:
+      213: 1737165445726971715
+    second: desert rocks_11
+  - first:
+      213: -5975046622536558289
+    second: desert rocks_12
+  - first:
+      213: 5210640801637426410
+    second: desert rocks_13
+  - first:
+      213: -1401069665795431372
+    second: desert rocks_14
+  - first:
+      213: 5441915052074935517
+    second: desert rocks_15
+  - first:
+      213: -1921624526395482818
+    second: desert rocks_16
+  - first:
+      213: 5891953219285595761
+    second: desert rocks_17
+  - first:
+      213: -3686688229580355469
+    second: desert rocks_18
+  - first:
+      213: -6331058449968174980
+    second: desert rocks_19
+  - first:
+      213: -6582786222273246661
+    second: desert rocks_20
+  - first:
+      213: 675798837104886803
+    second: desert rocks_21
+  - first:
+      213: -7954674706547947757
+    second: desert rocks_22
+  - first:
+      213: 7217907553860762393
+    second: desert rocks_23
+  - first:
+      213: 7238713940634157712
+    second: desert rocks_24
+  - first:
+      213: 591510969401710549
+    second: desert rocks_25
+  - first:
+      213: 2359970918691242331
+    second: desert rocks_26
+  - first:
+      213: 8631231881285380959
+    second: desert rocks_27
+  - first:
+      213: 8477899590781388472
+    second: desert rocks_28
+  - first:
+      213: -7809313504335326631
+    second: desert rocks_29
+  - first:
+      213: -7871350716422885481
+    second: desert rocks_30
+  - first:
+      213: 3219953306037187151
+    second: desert rocks_31
+  - first:
+      213: 8827292800777847777
+    second: desert rocks_32
+  - first:
+      213: 6645149078095629538
+    second: desert rocks_33
+  - first:
+      213: 8919685001204930765
+    second: desert rocks_34
+  - first:
+      213: 7520533385634558849
+    second: desert rocks_35
+  - first:
+      213: -4386972788098997321
+    second: desert rocks_36
+  - first:
+      213: -3110169789172646522
+    second: desert rocks_37
+  - first:
+      213: 4123783800389994431
+    second: desert rocks_38
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: desert rocks_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 409
+        width: 69
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 344ed7729e714a0e0800000000000000
+      internalID: -2259654822875765693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desert rocks_1
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 406
+        width: 49
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d980ad565af75e0800000000000000
+      internalID: -1909625860113523435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desert rocks_2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 424
+        width: 88
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf60b47d57c935fb0800000000000000
+      internalID: -4660209159461206276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desert rocks_3
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 372
+        width: 87
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e1e55c5050567b0800000000000000
+      internalID: -5231769869776708094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desert rocks_4
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 373
+        width: 38
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b0ade312ae1f1190800000000000000
+      internalID: -7989633532464095050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desert rocks_5
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 481
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7265c62d090d1cb0800000000000000
+      internalID: -4891743668164795780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desert rocks_6
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 469
+        width: 22
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75dbc13d3d8d0abe0800000000000000
+      internalID: -1467935074231206569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desert rocks_7
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 410
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66cd3bc9e33698950800000000000000
+      internalID: 6451797061753101414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desert rocks_8
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 372
+        width: 72
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98431693f53d23620800000000000000
+      internalID: 2752494728214819977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desert rocks_9
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 375
+        width: 28
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f938c66452676cf00800000000000000
+      internalID: 1136725858425013151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desert rocks_10
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 375
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87dd0f661556ffb0800000000000000
+      internalID: -4614407213353674870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desert rocks_11
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 313
+        width: 143
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 347a3acd4c6ab1810800000000000000
+      internalID: 1737165445726971715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desert rocks_12
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 298
+        width: 62
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f299f4301ce541da0800000000000000
+      internalID: -5975046622536558289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desert rocks_13
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 308
+        width: 65
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae461c1b33aef4840800000000000000
+      internalID: 5210640801637426410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desert rocks_14
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 346
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43420b8ef866e8ce0800000000000000
+      internalID: -1401069665795431372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desert rocks_15
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 354
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd427c848e0958b40800000000000000
+      internalID: 5441915052074935517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desert rocks_16
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 330
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3dd488aca40555e0800000000000000
+      internalID: -1921624526395482818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desert rocks_17
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 329
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 176bcbc6c3c64c150800000000000000
+      internalID: 5891953219285595761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desert rocks_18
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 319
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 378cf3e869046dcc0800000000000000
+      internalID: -3686688229580355469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desert rocks_19
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 322
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c78696512ef8328a0800000000000000
+      internalID: -6331058449968174980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desert rocks_20
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 330
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3a4115dece35a4a0800000000000000
+      internalID: -6582786222273246661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desert rocks_21
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 343
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3144249367be06900800000000000000
+      internalID: 675798837104886803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desert rocks_22
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 337
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 317cc6400815b9190800000000000000
+      internalID: -7954674706547947757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desert rocks_23
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 314
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91bba799da82b2460800000000000000
+      internalID: 7217907553860762393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desert rocks_24
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 318
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092ca260af3157460800000000000000
+      internalID: 7238713940634157712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desert rocks_25
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 181
+        width: 69
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d79febb718753800800000000000000
+      internalID: 591510969401710549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desert rocks_26
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 181
+        width: 50
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5108d00c0d40c020800000000000000
+      internalID: 2359970918691242331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desert rocks_27
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 200
+        width: 88
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5baa027aab48c770800000000000000
+      internalID: 8631231881285380959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desert rocks_28
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 147
+        width: 87
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b644fd82cc87a570800000000000000
+      internalID: 8477899590781388472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desert rocks_29
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 147
+        width: 39
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9529e6a4ebebf9390800000000000000
+      internalID: -7809313504335326631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desert rocks_30
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 256
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79fe8154a3853c290800000000000000
+      internalID: -7871350716422885481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desert rocks_31
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 243
+        width: 22
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42f0b7c8729fac20800000000000000
+      internalID: 3219953306037187151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desert rocks_32
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 196
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e30ab68808d08a70800000000000000
+      internalID: 8827292800777847777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desert rocks_33
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 148
+        width: 28
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec876701ef483c50800000000000000
+      internalID: 6645149078095629538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desert rocks_34
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 150
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc81335004619cb70800000000000000
+      internalID: 8919685001204930765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desert rocks_35
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 83
+        width: 144
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 183b63cc44d4e5860800000000000000
+      internalID: 7520533385634558849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desert rocks_36
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 72
+        width: 63
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b3ed0e0e775e13c0800000000000000
+      internalID: -4386972788098997321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desert rocks_37
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 148
+        width: 72
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d763d1e0576d4d0800000000000000
+      internalID: -3110169789172646522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desert rocks_38
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 83
+        width: 66
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb781c8848f9a3930800000000000000
+      internalID: 4123783800389994431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
