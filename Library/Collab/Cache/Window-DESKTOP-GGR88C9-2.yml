@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - Assets/Animation/Teleport.anim
+    - Assets/Animation/Teleport.anim.meta
+    - Assets/Animation/Teleport_0.controller
+    - Assets/Animation/Teleport_0.controller.meta
+    - Assets/Prefeb/Teleport.prefab
+    - Assets/Prefeb/Teleport.prefab.meta
+    - "Assets/Prefeb/\uC0AC\uC6A9\uBD88\uAC00\uC0B0\uC18C\uBC1C\uC0DD\uC7A5\uCE58_2.prefab"
+    - "Assets/Prefeb/\uC0AC\uC6A9\uBD88\uAC00\uC0B0\uC18C\uBC1C\uC0DD\uC7A5\uCE58_2.prefab.meta"
+    - Assets/Scenes/FirstStage.unity
+    - Assets/Scenes/Ground.unity
+    - Assets/Scenes/Ground.unity.meta
+    - Assets/Scenes/Start.unity
+    - Assets/Scenes/Start.unity.meta
+    - Assets/Scripts/Teleport.cs
+    - Assets/Scripts/Teleport.cs.meta
+    - Assets/Scripts/WeatherController.cs
+    - "Assets/Sprites/\uC21C\uAC04\uC774\uB3D9\uC7A5\uCE58.meta"
+    - "Assets/Sprites/\uC21C\uAC04\uC774\uB3D9\uC7A5\uCE58/Teleport.png"
+    - "Assets/Sprites/\uC21C\uAC04\uC774\uB3D9\uC7A5\uCE58/Teleport.png.meta"
+    - "Assets/Sprites/\uC21C\uAC04\uC774\uB3D9\uC7A5\uCE58/Teleport1.png"
+    - "Assets/Sprites/\uC21C\uAC04\uC774\uB3D9\uC7A5\uCE58/Teleport1.png.meta"
+    - "Assets/Sprites/\uC21C\uAC04\uC774\uB3D9\uC7A5\uCE58/Teleport2.png"
+    - "Assets/Sprites/\uC21C\uAC04\uC774\uB3D9\uC7A5\uCE58/Teleport2.png.meta"
+    - "Assets/Sprites/\uC21C\uAC04\uC774\uB3D9\uC7A5\uCE58/Teleport_ring.png"
+    - "Assets/Sprites/\uC21C\uAC04\uC774\uB3D9\uC7A5\uCE58/Teleport_ring.png.meta"
+    - "Assets/Sprites/\uC2DC\uC791 \uD654\uBA74.png"
+    - "Assets/Sprites/\uC2DC\uC791 \uD654\uBA74.png.meta"
+    - "Assets/Sprites/\uD50C\uB808\uC774\uC5B4\uCE90\uB9AD\uD130/\uD50C\uB808\uC774\uC5B4
+      \uC6B0\uC8FC\uBCF5/\uC6B0\uC8FC\uC778\uB4B7\uBA74\uC6D0\uBCF8.png.meta"
+    - "Assets/Sprites/\uD50C\uB808\uC774\uC5B4\uCE90\uB9AD\uD130/\uD50C\uB808\uC774\uC5B4
+      \uC6B0\uC8FC\uBCF5/\uC6B0\uC8FC\uC778\uC815\uBA74\uC6B0\uCE21\uC6D0\uBCF8.png.meta"
+    - "Assets/Sprites/\uD50C\uB808\uC774\uC5B4\uCE90\uB9AD\uD130/\uD50C\uB808\uC774\uC5B4
+      \uC6B0\uC8FC\uBCF5/\uC6B0\uC8FC\uC778\uC815\uBA74\uC6D0\uBCF8.png"
+    - "Assets/Sprites/\uD50C\uB808\uC774\uC5B4\uCE90\uB9AD\uD130/\uD50C\uB808\uC774\uC5B4
+      \uC6B0\uC8FC\uBCF5/\uC6B0\uC8FC\uC778\uC815\uBA74\uC88C\uCE21\uC6D0\uBCF8.png"
+    - "Assets/Sprites/\uD50C\uB808\uC774\uC5B4\uCE90\uB9AD\uD130/\uD50C\uB808\uC774\uC5B4/\uD50C\uB808\uC774\uC5B4\uB4B7\uBA742.png.meta"
+    - "Assets/Sprites/\uD50C\uB808\uC774\uC5B4\uCE90\uB9AD\uD130/\uD50C\uB808\uC774\uC5B4/\uD50C\uB808\uC774\uC5B4\uD6C4\uBA74\uC6B0\uCE212.png.meta"
+    - ProjectSettings/EditorBuildSettings.asset
+    - 
+    m_Values: 0101010101010101010101010101010101010101010101010101010101010101010101
+  RevisionSummary: 
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 0
