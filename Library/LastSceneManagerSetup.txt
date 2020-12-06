@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/Start.unity
-=======
-- path: Assets/Scenes/PlayerRoom CutScene.unity
->>>>>>> 2b5e2f03989ebb0d687467971cb31a2c6480568d
+- path: Assets/Scenes/Ending.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

@@ -56,9 +56,11 @@
     <Compile Include="Assets\Scripts\StageManager\RoketCamera.cs" />
     <Compile Include="Assets\Scripts\StageManager\PlayerRoomController.cs" />
     <Compile Include="Assets\Scripts\StageManager\HallwayCamera.cs" />
+    <Compile Include="Assets\Scripts\StageManager\GameOvercontroller.cs" />
     <Compile Include="Assets\UB\Simple2dWeatherEffects\Standard\D2FogsPE.cs" />
     <Compile Include="Assets\Scripts\StageManager\AiMessage.cs" />
     <Compile Include="Assets\Scripts\NPCController.cs" />
+    <Compile Include="Assets\Scripts\Opening&amp;Ending\ImageSlide_Ending.cs" />
     <Compile Include="Assets\Scripts\StageManager\LockDeviceMessage.cs" />
     <Compile Include="Assets\Scripts\TextController.cs" />
     <Compile Include="Assets\PixelWeatherAsset\Scripts\RainController.cs" />
@@ -74,7 +76,10 @@
     <Compile Include="Assets\Scripts\CameraShake.cs" />
     <Compile Include="Assets\Scripts\StageManager\ShelterIn.cs" />
     <Compile Include="Assets\PixelWeatherAsset\Scripts\SnowController.cs" />
+    <Compile Include="Assets\Scripts\StageManager\B13Controller.cs" />
+    <Compile Include="Assets\Scripts\Opening&amp;Ending\ImageSlideEnding.cs" />
     <Compile Include="Assets\Scripts\SoupBox.cs" />
+    <Compile Include="Assets\Scripts\Opening&amp;Ending\EndingCredit.cs" />
     <Compile Include="Assets\Scripts\InventoryManager.cs" />
     <Compile Include="Assets\Scripts\LayerController.cs" />
     <Compile Include="Assets\UB\Simple2dWeatherEffects\Standard\D2FogsNoiseTexPE.cs" />
@@ -82,22 +87,17 @@
     <Compile Include="Assets\Scripts\StageManager\GrandMotherRoom.cs" />
     <Compile Include="Assets\Scripts\OxygenController.cs" />
     <Compile Include="Assets\Scripts\PlayerRoomDoorController.cs" />
+    <Compile Include="Assets\Scripts\StageManager\B43Controller.cs" />
     <Compile Include="Assets\Scripts\StageManager\RocketMapController.cs" />
     <Compile Include="Assets\Scripts\StageManager\FirstStageManager.cs" />
     <Compile Include="Assets\Scripts\StageManager\HiddenButton.cs" />
     <Compile Include="Assets\Scripts\LevelLoader.cs" />
     <Compile Include="Assets\PixelWeatherAsset\Scripts\UIController.cs" />
     <Compile Include="Assets\Scripts\WeatherController.cs" />
-    <Compile Include="Assets\Scripts\CutSceneText.cs" />
-    <Compile Include="Assets\Scripts\MeteoController.cs" />
-    <Compile Include="Assets\Scripts\ButtonClick.cs" />
-    <Compile Include="Assets\Scripts\StageManager\GameOvercontroller.cs" />
-    <Compile Include="Assets\Scripts\StageManager\B13Controller.cs" />
-    <Compile Include="Assets\Scripts\StageManager\B43Controller.cs" />
     <Compile Include="Assets\Scripts\EndAnimationController.cs" />
-    <Compile Include="Assets\Scripts\Opening&amp;Ending\EndingCredit.cs" />
-    <Compile Include="Assets\Scripts\Opening&amp;Ending\ImageSlideEnding.cs" />
-    <Compile Include="Assets\Scripts\Opening&amp;Ending\ImageSlide_Ending.cs" />
+    <Compile Include="Assets\Scripts\CutSceneText.cs" />
+    <Compile Include="Assets\Scripts\ButtonClick.cs" />
+    <Compile Include="Assets\Scripts\MeteoController.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\UB\Simple2dWeatherEffects\Standard\D2Fogs.shader" />
