@@ -6,6 +6,48 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/Opening.unity
+    guid: ee0e854eb312eed45aec89d1f5020ced
+  - enabled: 1
+    path: Assets/Scenes/Start.unity
+    guid: 8037e49e4973767479851c862dfb7edc
+  - enabled: 1
+    path: Assets/Scenes/PlayerRoom CutScene.unity
+    guid: a827d45f0aa81ac4f88bdf8ffb8ba0db
+  - enabled: 1
+    path: Assets/Scenes/PlayerRoom.unity
+    guid: 03d097a44fe408949a3a099a20df8381
+  - enabled: 1
+    path: Assets/Scenes/FirstStage.unity
+    guid: 81ffc428b10fcf449a8928fc8bbeedf5
+  - enabled: 1
+    path: Assets/Scenes/ShelterIn.unity
+    guid: 5727ae112e803b74390bc62e88fe8d96
+  - enabled: 1
+    path: Assets/Scenes/UnderGround.unity
+    guid: ce6f6c0a824485f42803b6cb0e71134b
+  - enabled: 1
+    path: Assets/Scenes/Rocket_Locked.unity
+    guid: a268e69d98b15ea46b99d8c245e6c623
+  - enabled: 1
+    path: Assets/Scenes/Rocket_Unlocked.unity
+    guid: dc0716eaa81f4304a9735e8bc50647fa
+  - enabled: 1
+    path: Assets/Scenes/Ground.unity
+    guid: 83f5101cc25a9db4d9840e1d30dfaf75
+  - enabled: 1
+    path: Assets/Scenes/GrandmomRoom.unity
+    guid: a77ae88d621cae04dbda468174faa9d1
+  - enabled: 1
+    path: Assets/Scenes/Hallway_B13.unity
+    guid: 7ef33194a62395b44ad664358494ff4d
+  - enabled: 1
+    path: Assets/Scenes/Hallway_B43.unity
+    guid: 46dab709f4bbc63469f48f8aa7e93bec
+  - enabled: 1
+    path: Assets/Scenes/Ending.unity
+    guid: 72b70ec3b6e862a41b0318a60dbd81a7
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: decc4fbe38fd3924090926b22fa2a3ac
   m_configObjects: {}

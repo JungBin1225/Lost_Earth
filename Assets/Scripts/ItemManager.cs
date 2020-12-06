@@ -5,13 +5,16 @@ using UnityEngine;
 public class ItemManager : MonoBehaviour
 {
     GameObject item;
+    public GameObject prefeb;
+
+    public int itemID;
 
     private bool isTouch = false;
 
     void Start()
     {
         item = this.gameObject;
-        if (GameManager.gameManager.inventory.Contains(this.gameObject))
+        if (GameManager.gameManager.itemNum.Contains(itemID)) //인벤토리에 획득한 적 있으면 나타나지 않도록 함
         {
             item.SetActive(false);
         }
@@ -23,7 +26,11 @@ public class ItemManager : MonoBehaviour
         {
             if(Input.GetKeyUp(KeyCode.Space))
             {
-                GameManager.gameManager.inventory.Add(item);
+                if (prefeb != null)
+                {
+                    GameManager.gameManager.inventory.Add(prefeb); //씬을 옮기면 missing object가 되어서 프리펩으로 만들어 저장함
+                }
+                GameManager.gameManager.itemNum.Add(itemID); //씬을 옮겼다 와도 중복으로 못 얻게 하기 위함
                 item.SetActive(false);
 
                 isTouch = false;
