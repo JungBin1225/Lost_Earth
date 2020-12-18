@@ -20,7 +20,7 @@ public class MoveScene : MonoBehaviour
     {
         image = GetComponentInChildren<Image>();
         player = GameObject.FindGameObjectWithTag("Player");
-
+        //stage 1
         if (SceneManager.GetActiveScene().name.Equals("Rocket_Unlocked") && GameManager.gameManager.previousScene.Equals("FirstStage")) //이전 씬과 현재 씬에 따라 페이드 인/아웃의 색깔 결정
         {
             image.color = Color.white;
@@ -34,6 +34,23 @@ public class MoveScene : MonoBehaviour
             image.color = Color.white;
         }
         else if (SceneManager.GetActiveScene().name.Equals("FirstStage") && GameManager.gameManager.previousScene.Equals("Rocket_Locked"))
+        {
+            image.color = Color.white;
+        }
+        //stage 2
+        if (SceneManager.GetActiveScene().name.Equals("Rocket_Unlocked") && GameManager.gameManager.previousScene.Equals("SecondStage")) //이전 씬과 현재 씬에 따라 페이드 인/아웃의 색깔 결정
+        {
+            image.color = Color.white;
+        }
+        else if (SceneManager.GetActiveScene().name.Equals("SecondStage") && GameManager.gameManager.previousScene.Equals("Rocket_Unlocked"))
+        {
+            image.color = Color.white;
+        }
+        else if (SceneManager.GetActiveScene().name.Equals("Rocket_Locked") && GameManager.gameManager.previousScene.Equals("SecondStage"))
+        {
+            image.color = Color.white;
+        }
+        else if (SceneManager.GetActiveScene().name.Equals("SecondStage") && GameManager.gameManager.previousScene.Equals("Rocket_Locked"))
         {
             image.color = Color.white;
         }
@@ -62,6 +79,7 @@ public class MoveScene : MonoBehaviour
     
     IEnumerator LoadLevel()
     {
+        //stage 1
         if (SceneManager.GetActiveScene().name.Equals("Rocket_Unlocked") && transferMap.Equals("FirstStage")) //이전 씬과 현재 씬에 따라 페이드 인/아웃의 색깔 결정
         {
             image.color = Color.white;
@@ -75,6 +93,23 @@ public class MoveScene : MonoBehaviour
             image.color = Color.white;
         }
         else if (SceneManager.GetActiveScene().name.Equals("FirstStage") && transferMap.Equals("Rocket_Locked"))
+        {
+            image.color = Color.white;
+        }
+        //stage 2
+        if (SceneManager.GetActiveScene().name.Equals("Rocket_Unlocked") && GameManager.gameManager.previousScene.Equals("SecondStage")) //이전 씬과 현재 씬에 따라 페이드 인/아웃의 색깔 결정
+        {
+            image.color = Color.white;
+        }
+        else if (SceneManager.GetActiveScene().name.Equals("SecondStage") && GameManager.gameManager.previousScene.Equals("Rocket_Unlocked"))
+        {
+            image.color = Color.white;
+        }
+        else if (SceneManager.GetActiveScene().name.Equals("Rocket_Locked") && GameManager.gameManager.previousScene.Equals("SecondStage"))
+        {
+            image.color = Color.white;
+        }
+        else if (SceneManager.GetActiveScene().name.Equals("SecondStage") && GameManager.gameManager.previousScene.Equals("Rocket_Locked"))
         {
             image.color = Color.white;
         }

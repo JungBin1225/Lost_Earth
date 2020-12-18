@@ -4,51 +4,34 @@ using UnityEngine;
 
 public class MeteoController : MonoBehaviour
 {
-    public Vector2 pos;
-    public SpriteRenderer image;
-    public Sprite shadow;
-    public Sprite meteo;
-
-    public float shadowTime;
-    public float meteoTime;
+    public Vector3 pos;
+    public GameObject player;
 
     public bool warning = true;
     public bool hitBox = false;
     void Start()
     {
-        image = GetComponent<SpriteRenderer>();
-        transform.position = pos;
-        shadowTime = 5;
-        meteoTime = 5;
+        player = GameObject.FindGameObjectWithTag("Player");
     }
 
     void Update()
     {
         if(warning)
         {
-            image.sprite = shadow;
-            shadowTime -= Time.deltaTime;
-            transform.localScale -= new Vector3(Time.deltaTime, Time.deltaTime, 1);
-
-            if(shadowTime < 0)
-            {
-                warning = false;
-                transform.position = new Vector2(pos.x + 5, pos.y + 5);
-                transform.localScale = new Vector3(3, 3, 1);
-            }
+            transform.position = new Vector3(pos.x + 5, pos.y + 5, 0);
+            warning = false;
         }
         else
         {
-            image.sprite = meteo;
-            meteoTime -= Time.deltaTime;
-            transform.position = new Vector2(transform.position.x - Time.deltaTime, transform.position.y - Time.deltaTime);
+            transform.position = new Vector3(transform.position.x - (2 * Time.deltaTime), transform.position.y - (1.9f * Time.deltaTime), 0);
 
-            if(meteoTime < 0)
+            if (pos.x > transform.position.x - 0.1f)
             {
-                if(hitBox == true)
+                if (hitBox)
                 {
-                    GameManager.gameManager.Hp -= 20;  
+                    GameManager.gameManager.Hp -= 10;
                 }
+                Camera.main.GetComponent<CameraShake>().shakeTime = 1;
                 Destroy(this.gameObject);
             }
         }

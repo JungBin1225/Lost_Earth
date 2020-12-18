@@ -28,7 +28,10 @@ public class GameManager : MonoBehaviour
 
     public bool[] first_Lock = { false, false, false };
     public bool[] first_message = { false, false, false };
+    public bool[] second_Lock = { false, false, false };
+    public bool[] second_message = { false, false, false };
     public int first_Lock_num = 0;
+    public int second_Lock_num = 0;
     public bool soup = false;
     public bool stop = false;
     public bool foodBox = false;
@@ -62,7 +65,7 @@ public class GameManager : MonoBehaviour
         }
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
 
-        if(SceneManager.GetActiveScene().name.Equals("FirstStage") || SceneManager.GetActiveScene().name.Equals("Rocket_Locked") || SceneManager.GetActiveScene().name.Equals("Rocket_Unlocked") || SceneManager.GetActiveScene().name.Equals("ShelterIn"))
+        if(SceneManager.GetActiveScene().name.Equals("FirstStage") || SceneManager.GetActiveScene().name.Equals("Rocket_Locked") || SceneManager.GetActiveScene().name.Equals("Rocket_Unlocked") || SceneManager.GetActiveScene().name.Equals("ShelterIn") || SceneManager.GetActiveScene().name.Equals("SecondStage"))
         {
             hp_Gauge = GameObject.Find("hp_gauge");
             O2_Gauge = GameObject.Find("O2_gauge");
@@ -85,6 +88,11 @@ public class GameManager : MonoBehaviour
             {
                 O2 = 0;
             }
+            Hp -= 2.0f * Time.deltaTime;
+        }
+        
+        if (temp >= 48) //산소 최소치 0%
+        {
             Hp -= 2.0f * Time.deltaTime;
         }
 

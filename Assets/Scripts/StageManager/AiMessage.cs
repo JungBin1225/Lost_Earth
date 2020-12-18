@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class AiMessage : MonoBehaviour
 {
     public Text message;
     public Image textWindow;
     public FirstStageManager stageManager;
+    public SecondStageManager secondStage;
     public AudioSource AiSound;
 
     public bool O2_50per = false;
@@ -16,6 +18,9 @@ public class AiMessage : MonoBehaviour
     public bool lock_first = false;
     public bool lock_second = false;
     public bool lock_third = false;
+    public bool Slock_first = false;
+    public bool Slock_second = false;
+    public bool Slock_third = false;
     public bool main_lock = true;
 
     public bool charge = false;
@@ -29,6 +34,7 @@ public class AiMessage : MonoBehaviour
     void Start()
     {
         stageManager = GameObject.Find("StageManager").GetComponent<FirstStageManager>();
+        secondStage = GameObject.Find("StageManager").GetComponent<SecondStageManager>();
         textWindow = GetComponentInChildren<Image>();
         message = GetComponentInChildren<Text>();
         AiSound = GetComponent<AudioSource>();
@@ -47,7 +53,6 @@ public class AiMessage : MonoBehaviour
         message.text = appearmessage;
         if (!appear)
         {
-            Debug.Log("asd");
             if (posX >= -375) //왼쪽으로 천천히 등장
             {
                 posX -= 300 * Time.deltaTime;
@@ -192,7 +197,55 @@ public class AiMessage : MonoBehaviour
             }
         }
 
-        if(!main_lock)
+        if (!Slock_first)
+        {
+            if (GameManager.gameManager.second_Lock[0] == true && GameManager.gameManager.second_message[0] == false)
+            {
+                if (GameManager.gameManager.second_Lock[0] && GameManager.gameManager.second_Lock[1] && GameManager.gameManager.second_Lock[2])
+                {
+                    MessageAppear("잠금장치 3개를 모두 해제하였습니다", ref Slock_first, ref GameManager.gameManager.second_message[0]);
+                }
+                else
+                {
+                    MessageAppear("잠금장치 3개 중 " + GameManager.gameManager.second_Lock_num.ToString() + "개를 해제하였습니다.", ref Slock_first, ref GameManager.gameManager.second_message[0]);
+                }
+                return;
+            }
+        }
+
+        if (!Slock_second)
+        {
+            if (GameManager.gameManager.second_Lock[1] == true && GameManager.gameManager.second_message[1] == false)
+            {
+                if (GameManager.gameManager.second_Lock[0] && GameManager.gameManager.second_Lock[1] && GameManager.gameManager.second_Lock[2])
+                {
+                    MessageAppear("잠금장치 3개를 모두 해제하였습니다", ref Slock_second, ref GameManager.gameManager.second_message[1]);
+                }
+                else
+                {
+                    MessageAppear("잠금장치 3개 중 " + GameManager.gameManager.second_Lock_num.ToString() + "개를 해제하였습니다.", ref Slock_second, ref GameManager.gameManager.second_message[1]);
+                }
+                return;
+            }
+        }
+
+        if (!Slock_third)
+        {
+            if (GameManager.gameManager.second_Lock[2] == true && GameManager.gameManager.second_message[2] == false)
+            {
+                if (GameManager.gameManager.second_Lock[0] && GameManager.gameManager.second_Lock[1] && GameManager.gameManager.second_Lock[2])
+                {
+                    MessageAppear("잠금장치 3개를 모두 해제하였습니다", ref Slock_third, ref GameManager.gameManager.second_message[2]);
+                }
+                else
+                {
+                    MessageAppear("잠금장치 3개 중 " + GameManager.gameManager.second_Lock_num.ToString() + "개를 해제하였습니다.", ref Slock_third, ref GameManager.gameManager.second_message[2]);
+                }
+                return;
+            }
+        }
+
+        if (!main_lock)
         {
             MessageAppear("연결된 모든 잠금 장치를 해제하면 이 잠금 장치가 해제됩니다.", ref main_lock);
             return;
@@ -202,6 +255,30 @@ public class AiMessage : MonoBehaviour
         if(GameManager.gameManager.presentScene.Equals("FirstStage"))
         {
             if (stageManager.isCharge.Contains(true)) //산소 충전은 충전중에는 계속 뜨고 충전 범위에서 나오면 바로 들어가게 해서 코드를 다르게 짬
+            {
+                message.text = "산소를 충전중입니다.";
+                if (posX >= -375)
+                {
+                    posX -= 300 * Time.deltaTime;
+                    textWindow.rectTransform.anchoredPosition = new Vector2(posX, 150);
+                }
+            }
+            else
+            {
+                if (posX <= 375)
+                {
+                    posX += 300 * Time.deltaTime;
+                    textWindow.rectTransform.anchoredPosition = new Vector2(posX, 150);
+                }
+                else
+                {
+                    charge = true;
+                }
+            }
+        }
+        else if(SceneManager.GetActiveScene().name.Equals("SecondStage"))
+        {
+            if(secondStage.isCharge.Contains(true))
             {
                 message.text = "산소를 충전중입니다.";
                 if (posX >= -375)

@@ -27,6 +27,13 @@ public class RocketMapController : MonoBehaviour
                 player.transform.position = new Vector3(-4.5f, 1, 0);
             }
         }
+        else if(GameManager.gameManager.previousScene.Equals("SecondStage"))
+        {
+            if (isMoved == 0) //씬 변경되고 나서 움직이지 않았을 때
+            {
+                player.transform.position = new Vector3(4.2f, 1, 0);
+            }
+        }
     }
 
     void isMove()

@@ -53,6 +53,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Shadowcontroller.cs" />
     <Compile Include="Assets\Scripts\StageManager\RoketCamera.cs" />
     <Compile Include="Assets\Scripts\StageManager\PlayerRoomController.cs" />
     <Compile Include="Assets\Scripts\StageManager\HallwayCamera.cs" />
@@ -62,11 +63,13 @@
     <Compile Include="Assets\Scripts\NPCController.cs" />
     <Compile Include="Assets\Scripts\Opening&amp;Ending\ImageSlide_Ending.cs" />
     <Compile Include="Assets\Scripts\StageManager\LockDeviceMessage.cs" />
+    <Compile Include="Assets\Scripts\StageManager\SecondStageManager.cs" />
     <Compile Include="Assets\Scripts\TextController.cs" />
     <Compile Include="Assets\PixelWeatherAsset\Scripts\RainController.cs" />
     <Compile Include="Assets\Scripts\MoveScene.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\StageManager\RocketAI.cs" />
+    <Compile Include="Assets\Scripts\LavaController.cs" />
     <Compile Include="Assets\Scripts\Opening&amp;Ending\ImageSlide.cs" />
     <Compile Include="Assets\Scripts\UnLock.cs" />
     <Compile Include="Assets\PixelWeatherAsset\Scripts\StoneFloat.cs" />
@@ -87,6 +90,7 @@
     <Compile Include="Assets\Scripts\StageManager\GrandMotherRoom.cs" />
     <Compile Include="Assets\Scripts\OxygenController.cs" />
     <Compile Include="Assets\Scripts\PlayerRoomDoorController.cs" />
+    <Compile Include="Assets\Scripts\MeteoGenerator.cs" />
     <Compile Include="Assets\Scripts\StageManager\B43Controller.cs" />
     <Compile Include="Assets\Scripts\StageManager\RocketMapController.cs" />
     <Compile Include="Assets\Scripts\StageManager\FirstStageManager.cs" />
@@ -98,6 +102,8 @@
     <Compile Include="Assets\Scripts\CutSceneText.cs" />
     <Compile Include="Assets\Scripts\ButtonClick.cs" />
     <Compile Include="Assets\Scripts\MeteoController.cs" />
+    <Compile Include="Assets\Scripts\RocketUnlock.cs" />
+    <Compile Include="Assets\Scripts\RocketUnlock2.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\UB\Simple2dWeatherEffects\Standard\D2Fogs.shader" />
@@ -121,6 +127,7 @@
      <None Include="Assets\text\할머니 방\서랍 왼쪽.txt" />
      <None Include="Assets\text\할머니 방\올 클리어시.txt" />
      <None Include="Assets\text\복도 다른 방\간부층 복도3.txt" />
+     <None Include="Assets\text\할무니.txt" />
      <None Include="Assets\text\할머니 방\유리옷장.txt" />
      <None Include="Assets\text\할머니 방\옷장.txt" />
      <None Include="Assets\text\복도 다른 방\간부층 복도2.txt" />

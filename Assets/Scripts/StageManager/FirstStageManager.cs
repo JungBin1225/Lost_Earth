@@ -29,7 +29,7 @@ public class FirstStageManager : MonoBehaviour
             }
         }
 
-        if(GameManager.gameManager.first_Lock[0] && GameManager.gameManager.first_Lock[1] && GameManager.gameManager.first_Lock[2])
+        if (GameManager.gameManager.first_Lock[0] && GameManager.gameManager.first_Lock[1] && GameManager.gameManager.first_Lock[2] && GameManager.gameManager.second_Lock[0] && GameManager.gameManager.second_Lock[1] && GameManager.gameManager.second_Lock[2])
         {
             scene.transferMap = "Rocket_Unlocked";
         }
@@ -46,6 +46,8 @@ public class FirstStageManager : MonoBehaviour
         {
             GameManager.gameManager.temp = 38;
         }
+
+        GameManager.gameManager.temp += 0.1f * Time.deltaTime;
     }
 
     void isMove()

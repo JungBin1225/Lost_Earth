@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class UnLock : MonoBehaviour
 {
@@ -26,23 +27,47 @@ public class UnLock : MonoBehaviour
             {
                 if(player.transform.position.y < transform.position.y && player.transform.position.x - transform.position.x < 0.5 && player.transform.position.x - transform.position.x > -0.5)
                 {
-                    if(!GameManager.gameManager.first_Lock[number])
+                    if(SceneManager.GetActiveScene().name.Equals("FirstStage"))
                     {
-                        GameManager.gameManager.first_Lock_num++;
+                        if (!GameManager.gameManager.first_Lock[number])
+                        {
+                            GameManager.gameManager.first_Lock_num++;
+                        }
+                        GameManager.gameManager.first_Lock[number] = true;
                     }
-                    GameManager.gameManager.first_Lock[number] = true;
+                    else if(SceneManager.GetActiveScene().name.Equals("SecondStage"))
+                    {
+                        if (!GameManager.gameManager.second_Lock[number])
+                        {
+                            GameManager.gameManager.second_Lock_num++;
+                        }
+                        GameManager.gameManager.second_Lock[number] = true;
+                    }
                 }
             }
         }
 
-        if(GameManager.gameManager.first_Lock[number])
+        if (SceneManager.GetActiveScene().name.Equals("FirstStage"))
         {
-            if(objectImage.sprite != unLockImage)
+            if (GameManager.gameManager.first_Lock[number])
             {
-                objectImage.sprite = unLockImage;
+                if (objectImage.sprite != unLockImage)
+                {
+                    objectImage.sprite = unLockImage;
+                }
             }
-            
         }
+        else if (SceneManager.GetActiveScene().name.Equals("SecondStage"))
+        {
+            if (GameManager.gameManager.second_Lock[number])
+            {
+                if (objectImage.sprite != unLockImage)
+                {
+                    objectImage.sprite = unLockImage;
+                }
+            }
+        }
+
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

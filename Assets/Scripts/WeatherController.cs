@@ -87,7 +87,5 @@ public class WeatherController : MonoBehaviour
                 }
             }
         }
-
-        GameManager.gameManager.temp += 0.1f * Time.deltaTime;
     }
 }
