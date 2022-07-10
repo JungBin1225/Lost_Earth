@@ -1,4 +1,4 @@
-<p align="center"><img src="https://user-images.githubusercontent.com/69952837/178146309-58263c4f-5743-468f-8117-57cb7e735825.png"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/69952837/178147543-b337c977-cfa6-4089-8d81-00681b3180d2.png"></p>
 
 <div align="center">
   <H1>Lost Earth</H1>
