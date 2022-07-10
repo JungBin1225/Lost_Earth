@@ -28,4 +28,4 @@
     + #### 거주구역 바깥으로 가게 되면 지속적으로 산소 게이지가 줄어들고, 산소 게이지가 모두 줄어들거나 위험 구역으로 가게 되면 HP가 지속적으로 감소하게 된다. 산소 게이지는 맵 곳곳에 있는 산소 충전기 근처에서 충전할 수 있으며, HP는 탐색을 하며 얻는 식량으로 회복할 수 있다. HP가 모두 줄어들기 전에 맵에 있는 모든 스위치를 켜 우주선의 보호막을 해제하는 것이 목표이다.
   + ### 시연 영상
     + #### [유튜브 링크](https://youtu.be/MulhF-B_Bl0)
-    + #### [![Video Label](https://user-images.githubusercontent.com/69952837/178146427-15f62fe3-1a2d-4359-8c48-f76a93310f81.PNG)](https://youtu.be/MulhF-B_Bl0)
+    + #### [![Video Label](https://user-images.githubusercontent.com/69952837/178147577-0ba07b58-8d36-4bb7-b306-3291cb117f06.PNG)](https://youtu.be/MulhF-B_Bl0)
